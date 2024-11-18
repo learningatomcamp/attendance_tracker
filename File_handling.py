@@ -4,7 +4,7 @@ import json
 import streamlit as st
 
 GITHUB_TOKEN = st.secrets["GitHub"]["apikey"]
-REPO = "AzeemChaudhry/attendance_merger"
+REPO = "learningatomcamp/attendance_tracke"
 BRANCH = "main"
 
 def github_request(method, url, data=None, headers=None):
