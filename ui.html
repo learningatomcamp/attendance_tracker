@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #container {
+            width: 100%;
+            height: 50; 
+            align-items: left; 
+            padding: 10px; 
+        }
+        #animated-text {
+            font-family: 'Lato';
+            font-weight: bold;
+            font-size: 60px;
+            color: #008000;
+            overflow: hidden;
+            border-right: none;
+            white-space: nowrap;
+            animation: typing 4s steps(70, end) forwards;
+        }
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="animated-text">Atom Camp.</div>
+    </div>
+</body>
+</html>
