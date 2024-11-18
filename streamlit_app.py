@@ -143,7 +143,7 @@ if st.session_state.logged_in:
 
     def main():
         # available files (can be changed later)
-        menu = ["AI", "DS", "ML", "DA Gray", "DA Black", "DA White", "DS6", "DS7 Blue", "DS7 Green"]
+        menu = ["AI", "DS", "ML", "DA Gray", "DA Black", "DA White", "DS6", "DS7 Blue", "DS7 Green", "DS8 Tracker"]
 
         col1.subheader("Attendance")
 
@@ -164,7 +164,8 @@ if st.session_state.logged_in:
                     "DA White": "DA%20Cohort%2001(White)%20-%20Tracker.csv",
                     "DS6": "DS%20Cohort%2006%20-%20Tracker.csv",
                     "DS7 Blue": "DS%20Cohort%2007(Blue)%20-%20Tracker.csv",
-                    "DS7 Green": "DS%20Cohort%2007(Green)%20-%20Tracker.csv"
+                    "DS7 Green": "DS%20Cohort%2007(Green)%20-%20Tracker.csv",
+                    "DS8 Tracker":"DS%2008%20attendence%20Tracker.csv"
                 }
 
                 if choice in urls:
