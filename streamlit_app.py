@@ -125,7 +125,7 @@ if st.session_state.logged_in:
 
     # accessing the api key here 
     GITHUB_TOKEN = st.secrets["GitHub"]["apikey"]
-    REPO = "learningatomcamp/attendance_tracker/blob"
+    REPO = "learningatomcamp/attendance_tracker"
     BRANCH = "main"
 
     col1, col2 = st.columns(2)
