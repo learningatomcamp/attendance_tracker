@@ -154,7 +154,7 @@ if st.session_state.logged_in:
             df = pd.read_csv(datafile)
             col1.dataframe(df)  # confirming that the right file is uploaded
             # choosing from the daily file.
-            choice = col1.selectbox("Course", menu)
+            choice = col1.selectbox("Course", menu, key="course_selector", label_visibility="visible")
             current_date = col1.date_input("Enter the date", format="DD-MM-YYYY")
             current_date_str = current_date.strftime("%d-%m-%Y")
             if st.button("Update") and choice is not None:
