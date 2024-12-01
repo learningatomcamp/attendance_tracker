@@ -170,7 +170,7 @@ if st.session_state.logged_in:
                     "App Development":"App%20Development%20Tracker.csv",
                     "AI 03 Tracker": "Attendence%20tracker%20-%20AI%2003.csv",
                     "DA Cohort 02 Orange": "DA%2002%20(Orange)%20Tracker.csv",
-                    "DA Cohort 02 Yellow": "DA%2002%20(Yellow)%20Tracker.csv"
+                    "DA Cohort 02 Yellow": "DA2%20attendence%20tracker%20(Yellow).csv"
                 }
 
                 if choice in urls:
