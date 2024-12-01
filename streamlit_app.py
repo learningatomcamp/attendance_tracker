@@ -168,8 +168,8 @@ if st.session_state.logged_in:
                     "DS7 Green": "DS%20Cohort%2007(Green)%20-%20Tracker.csv",
                     "DS8 Tracker":"DS%2008%20attendence%20Tracker.csv",
                     "App Development":"App%20Development%20Tracker.csv",
-                    "AI 03 Tracker": "Attendence%20tracker%20-%20AI%2003.csv",
-                    "DA Cohort 02 Orange": "DA%2002%20(Orange)%20Tracker.csv",
+                    "AI 03 Tracker": "AI03%20attendence%20tracker.csv",
+                    "DA Cohort 02 Orange": "DA2%20attendence%20tracker%20(Orange).csv",
                     "DA Cohort 02 Yellow": "DA2%20attendence%20tracker%20(Yellow).csv"
                 }
 
