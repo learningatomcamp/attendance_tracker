@@ -173,7 +173,9 @@ if st.session_state.logged_in:
                     "DA Cohort 02 Yellow" : "DA2%20attendence%20tracker%20(Yellow).csv",
                     "DS Cohort 09 Electron": "DS%2009%20attendence%20tracker%20Electron.csv",
                      "DS Cohort 09 proton": "DS%2009%20attendence%20tracker%20proton.csv",
-                     "LRP Fellowship_attendence_Tracker": "LRP%20Fellowship_attendence_Tracker.csv"
+                     "LRP Fellowship_attendence_Tracker": "LRP%20Fellowship_attendence_Tracker.csv",
+                    "DA03 Tracker Azure": "DA%2003%20Attendence%20Tracker%20(Azure).csv",
+                    "DA03 Tracker AWS" : "DA%2003%20Attendence%20Tracker%20(AWS).csv"
                 }
 
                 if choice in urls:
