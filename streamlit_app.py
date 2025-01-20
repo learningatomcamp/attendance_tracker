@@ -144,7 +144,7 @@ if st.session_state.logged_in:
     def main():
         # available files (can be changed later)
         menu = ["AI", "DS", "ML", "DA Gray", "DA Black", "DA White", "DS6", "DS7 Blue", "DS7 Green", "DS8 Tracker",
-                "App Development", "AI 03 Tracker", "DA Cohort 02 Orange", "DA Cohort 02 Yellow","DS Cohort 09 Electron","DS Cohort 09 proton","LRP Fellowship_attendence_Tracker"]
+                "App Development", "AI 03 Tracker", "DA Cohort 02 Orange", "DA Cohort 02 Yellow","DS Cohort 09 Electron","DS Cohort 09 proton","LRP Fellowship_attendence_Tracker","DA03 Tracker Azure","DA03 Tracker AWS"]
 
         col1.subheader("Attendance")
 
